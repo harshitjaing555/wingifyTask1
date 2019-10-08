@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26562" started-at="2019-10-04T11:51:58Z" finished-at="2019-10-04T11:52:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26562" started-at="2019-10-04T11:51:58Z" finished-at="2019-10-04T11:52:24Z">
+      <class name="wingify.task1.TestRunner">
+        <test-method status="PASS" signature="startSession()[pri:0, instance:wingify.task1.TestRunner@ae45eb6]" name="startSession" is-config="true" duration-ms="7226" started-at="2019-10-04T11:51:50Z" finished-at="2019-10-04T11:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="PASS" signature="launchVWOApplication()[pri:0, instance:wingify.task1.TestRunner@ae45eb6]" name="launchVWOApplication" duration-ms="13033" started-at="2019-10-04T11:51:58Z" finished-at="2019-10-04T11:52:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchVWOApplication -->
+        <test-method status="PASS" signature="launchHeatMap()[pri:0, instance:wingify.task1.TestRunner@ae45eb6]" name="launchHeatMap" duration-ms="2061" started-at="2019-10-04T11:52:11Z" depends-on-methods="wingify.task1.TestRunner.launchVWOApplication" finished-at="2019-10-04T11:52:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchHeatMap -->
+        <test-method status="PASS" signature="verifyHeatMap()[pri:0, instance:wingify.task1.TestRunner@ae45eb6]" name="verifyHeatMap" duration-ms="11005" started-at="2019-10-04T11:52:13Z" depends-on-methods="wingify.task1.TestRunner.launchHeatMap" finished-at="2019-10-04T11:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeatMap -->
+        <test-method status="PASS" signature="clickOnElementTab()[pri:0, instance:wingify.task1.TestRunner@ae45eb6]" name="clickOnElementTab" duration-ms="274" started-at="2019-10-04T11:52:24Z" depends-on-methods="wingify.task1.TestRunner.verifyHeatMap" finished-at="2019-10-04T11:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnElementTab -->
+        <test-method status="PASS" signature="verifyElementTabIsHighlighted()[pri:0, instance:wingify.task1.TestRunner@ae45eb6]" name="verifyElementTabIsHighlighted" duration-ms="156" started-at="2019-10-04T11:52:24Z" depends-on-methods="wingify.task1.TestRunner.clickOnElementTab" finished-at="2019-10-04T11:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementTabIsHighlighted -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:wingify.task1.TestRunner@ae45eb6]" name="closeSession" is-config="true" duration-ms="799" started-at="2019-10-04T11:52:24Z" finished-at="2019-10-04T11:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- wingify.task1.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
