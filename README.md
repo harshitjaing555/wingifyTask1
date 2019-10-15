@@ -1,6 +1,6 @@
 Wingify Task1
 
-	This is the basic project of Java, Testng and Selenium. I have tried to build a framework based on Page Object Model for basic web automation.
+	This is the basic project of Java, Testng and Selenium. I have tried to build a framework based on Page Object Model for basic web automation. The task sheet provided by Wingify is kept in the framework as 'Wingify Task Sheet_with_MT_questions'
 
 Motivation
 
